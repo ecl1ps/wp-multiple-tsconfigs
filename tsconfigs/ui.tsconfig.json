@@ -1,0 +1,12 @@
+{
+  "extends": "./base.tsconfig.json",
+  "compilerOptions": {
+    "lib": [ "es2017", "dom", "dom.iterable" ]
+  },
+  "include": [ 
+    "../src/**/*.ts" 
+  ],
+  "exclude": [
+    "../src/worker/**/*.ts"
+  ]
+}

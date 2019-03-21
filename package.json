@@ -1,0 +1,17 @@
+{
+  "name": "wp-multiple-tsconfigs",
+  "version": "1.0.0",
+  "description": "Test multiple tsconfigs with webpack and ts-loader",
+  "repository": " ",
+  "scripts": {
+    "build": "rimraf dist && webpack-cli --mode development --env"
+  },
+  "devDependencies": {
+    "path": "0.12.7",
+    "rimraf": "^2.6.3",
+    "ts-loader": "^5.3.3",
+    "typescript": "3.1.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
